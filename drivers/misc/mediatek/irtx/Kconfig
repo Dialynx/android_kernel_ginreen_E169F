@@ -1,0 +1,7 @@
+config MTK_IRTX_HW_SUPPORT
+	bool "MediaTek consumer IR tansmitter - PWM+IRTX solution"
+	default n
+
+config MTK_IRTX_SUPPORT
+	bool "MediaTek consumer IR tansmitter - PWM only solution"
+	default n
